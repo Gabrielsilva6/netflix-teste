@@ -1,13 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
 :root{
- --font-principal:'Open Sans' sans-serif;
+ --font-principal:'Noto Sans' , sans-serif;
 }
-
-
-
-
-
 
 
 *{
@@ -22,15 +16,15 @@ img{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../imagens/netflix.jpg');
+    background-image: url('../imagens/netflix-nova.jpg');
     background-repeat: no-repeat;
 }
 h1{
-    font-family: 'Open Sans';
+    font-family: var(--font-principal);
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: normal;
     
 
 }
