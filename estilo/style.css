@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+:root{
+ --font-principal:'Open Sans' sans-serif;
+}
+
+
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,16 +17,21 @@
 img{
     max-width: 220px;
 }
+#netflixlogo{
+    margin-left: 20px;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url('../imagens/netflix.jpg');
-    
+    background-repeat: no-repeat;
 }
 h1{
+    font-family: 'Open Sans';
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
+    
 
 }
 span > a{
