@@ -46,6 +46,8 @@ p{
 }
 
 #email{
+    color: white;
+    text-indent: 20px;
     margin-top: 20px;
     background-color: #333333;
     height: 45px;
@@ -55,6 +57,8 @@ p{
     
 }
 #senha{
+    color: white;
+    text-indent: 20px;
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #333333;
