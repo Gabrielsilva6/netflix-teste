@@ -13,14 +13,16 @@
 
     <div id="conteudo">
         <h1>Entrar</h1>
-        <div>
-            <input type="text" name="email" id="email" placeholder="Email ou número de telefone">
-        </div>
-        <div>
-            <input type="password" name="senha" id="senha" placeholder="Senha">
-        </div>
-        <button id="entrar">Entrar</button>
-        <div id="embaixo">
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <div>
+                <input type="text" name="email" id="email" placeholder="Email ou número de telefone" required minlength="12" maxlength="30" autocomplete="username">
+            </div>
+            <div>
+                <input type="password" name="senha" id="senha" placeholder="Senha" required minlength="8" maxlength="30" autocomplete="current-password">
+            </div>
+            <input type="submit" id="entrar">Entrar</input>
+            <div id="embaixo">
+        </form>
             <input type="checkbox" name="checkbox" id="check">
             <span id="lembre">Lembre-se de mim</span> <span id="precisa"><a href="#">Precisa de ajuda?</a></span></div>
         <h2 id="novo">Novo por aqui? <span class="assine"><a href="#">Assine agora</a></span></h2>
