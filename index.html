@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/logonetflix.png" type="image/x-icon">
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="estilo/telaspequenas.css" media="screen">
     <title>Netflix</title>
 </head>
 <body>
@@ -20,26 +21,46 @@
             <div>
                 <input type="password" name="senha" id="senha" placeholder="Senha" required minlength="8" maxlength="30" autocomplete="current-password">
             </div>
-            <input type="submit" id="entrar">Entrar</input>
-            <div id="embaixo">
+            <input id="entrar" type="submit" value="Entrar">
         </form>
-            <input type="checkbox" name="checkbox" id="check">
-            <span id="lembre">Lembre-se de mim</span> <span id="precisa"><a href="#">Precisa de ajuda?</a></span></div>
+        <div id="embaixo">
+            <p id="lembre">
+                <input type="checkbox" name="checkbox" id="icheck" checked>
+                <label for="icheck">Lembre-se de mim</label>
+            </p>
+            <div id="helper"></div>
+            <p id="precisa">
+                <a href="#">Precisa de ajuda?</a>
+            </p>
+        </div>
+
         <h2 id="novo">Novo por aqui? <span class="assine"><a href="#">Assine agora</a></span></h2>
-        <p id="robo">Esta página é protegida pelo Google reCAPTCHA <br> para garantir que você não é um robô. <span class="saiba"><a href="#" style="color: rgb(59, 59, 255);">Saiba mais.</a></span></p>
+        <p id="robo">O acesso está protegido pelo Google reCAPTCHA para garantir que você não é um robô. <span class="saiba"><a href="#" style="color: rgb(59, 59, 255);">Saiba mais.</a></span></p>
     </div>
+
+    <hr>
+    
     <div id="final">
         <h2 id="duvidas">Dúvidas? Ligue <a href="#" id="link">0800 591 2876</a></h2>
         <div>
-            <p><span id="paragrafo"><a href="#" id="link">Perguntas frequentes</a></span>
-            <span id="paragrafo"><a href="#" id="link">Central de Ajuda</a></span>
-            <span id="paragrafo"><a href="#" id="link">Termos de Uso</a></span>
-            <span id="paragrafo"><a href="#" id="link">Privacidade</a></span>
-            <div>
-                <span id="continuacao"><a href="#" id="link">Preferências de cookies</a></span>
-                <span id="continuacao"><a href="#" id="link">Informações corporativas</a></span></p>
-            </div>
-        </div>
+            <ul>
+                <li><a href="#" id="link">Perguntas frequentes</a></li>
+                <li><a href="#" id="link">Termos de Uso</a></li>
+                <li><a href="#" id="link">Preferências de cookies</a></li>
+
+                <li><a href="#" id="link">Central de Ajuda</a></li>
+                <li><a href="#" id="link">Privacidade</a></li>
+                <li><a href="#" id="link">Informações corporativas</a></li>
+            </ul>
+                </div>
+                <p>
+                    
+                    <select name="lang" id="ilang">
+                        <option value="port" selected>&#x1F310; Portugês</option>
+                        <option value="eng"> &#x1F310; English</option>
+                    </select>
+                </p>
     </div>
+    
 </body>
 </html>

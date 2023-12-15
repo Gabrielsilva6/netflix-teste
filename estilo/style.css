@@ -9,17 +9,22 @@
     margin: 0;
     padding: 0;
 }
+
 img{
     max-width: 220px;
 }
+
 #netflixlogo{
-    margin-left: 20px;
+    margin-top: -8px;
+    margin-left: -8px;
 }
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url('../imagens/netflix.jpg');
     background-repeat: no-repeat;
 }
+
 h1{
     font-family: var(--font-principal);
     color: white;
@@ -29,16 +34,20 @@ h1{
     
 
 }
+
 span > a{
     text-decoration: none;
     color: white;
 }
+
 span > a:hover{
     text-decoration: underline;
 }
+
 p{
     color: #737373;
 }
+
 #conteudo{
     /*margin-right: 30px;
     margin-left: 30px;*/
@@ -68,6 +77,7 @@ p{
     border-radius: 4px;
     
 }
+
 #senha{
     color: white;
     text-indent: 20px;
@@ -79,13 +89,15 @@ p{
     border-color: rgba(0, 0, 0, 0);
     border-radius: 4px;
 }
+
 ::placeholder{
-    font-size: 15px;
+    font-size: 13px;
     color: #797979;
     font-weight: normal;
     text-indent: 20px;
 
 }
+
 #entrar{
     border-color: rgba(0, 0, 0, 0);
     border-radius: 4px;
@@ -94,48 +106,80 @@ p{
     background-color: #E50914;
     height: 45px;
     width: 320px;
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: var(--font-principal);
 }
+
 #entrar:hover{
     background-color: #ff0000bd;
     cursor: pointer;
 }
+
 #check{
     border-color: rgba(0, 0, 0, 0);
     margin-top: 15px;
     margin-right: 3px;
+    margin-left: 1px;
     color: #737373;
 }
+
 #embaixo{
     color: #929292;
-    width: 400px;
+    width: 100%;
+    margin-top: 15px;
 }
+
 #lembre{
+    color: #929292;
+    display: inline-block;
     font-size: 13px;
+    width: 47%;
 }
+
+#helper {
+    display: inline-block;
+    width: 1px;
+}
+
 #precisa{
-    margin-left: 86px;
+    display: inline-block;
     font-size: 13px;
+    width: 50.7%;
+    text-align: right;
 }
-#precisa > a{
+
+#precisa > a {
     text-decoration: none;
     color: #929292;
 }
+
 #precisa:hover{
     text-decoration: underline;
 }
+
 #novo{
-    margin-top: 70px;
+    margin-top: 42px;
     font-size: 16px;
     font-weight: normal;
     color: #585858;
 }
-#robo{
-    width: 300px;
-    margin-top: 10px;
-    font-size: 13px;
+
+.assine {
+    font-size: 15px;
 }
+
+#robo{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+hr {
+    display: none;
+}
+
 #final{
     color: #737373;
     font-size: 13px;
@@ -148,20 +192,24 @@ p{
 
     
 }
+
 #duvidas{
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 30px;
 }
+
 #paragrafo{
     margin-right: 140px;
     margin-bottom: 300px;
 }
+
 #continuacao{
     display: inline-block;
     margin-top: 20px;
     margin-right: 127px;
 }
+
 #link{
     text-decoration: none;
     color: #737373;

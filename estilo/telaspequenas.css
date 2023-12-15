@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*Tela de Celular*/
+
+@media screen and (min-width: 500px) and (max-width: 639px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background-color: black;
+        background-image: none;
+    }
+
+    #conteudo {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0% , 0%);
+
+        padding: 0px;
+        margin: 0px;
+        margin-left: 25px;
+        max-width: 90%;
+    }
+
+    #email {
+        width: 99%;
+    }
+
+    #senha {
+        width: 99%;
+    }
+
+    #entrar {
+        width: 100%;
+    }
+
+    #lembre{
+        color: #929292;
+        display: inline-block;
+        font-size: 13px;
+        width: 47%;
+    }
+
+    #precisa{
+        display: inline-block;
+        font-size: 13px;
+        width: 50.7%;
+        text-align: right;
+    }
+
+    hr {
+        display: block;
+        height: 0px;
+        margin-top: 112px;
+        border-color: rgb(14, 14, 14);
+    }
+
+    #final {
+        padding: 30px 10px 0px 15px;
+        margin: 10px 10px 80px 10px;
+    }
+
+    ul {
+        list-style: none;
+        list-style-position: inside;
+        columns: 3;
+    }
+
+    li {
+        margin-bottom: 16px;
+    }
+
+    #ilang {
+        margin-top: 10px;
+        width: 140px;
+        height: 45px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 2px;
+        color: rgba(179, 179, 179, 0.678);
+    }
+
+    #ilang::after {
+        content: \1F310;
+    }
+    
+    option {
+        background-color: black;
+        text-align: center;
+    }
+}
+
+/*Tela de Tablet*/
+
+@media screen and (min-width: 640px) and (max-width: 739px) {
+    
+}
+
+/*Imagem pequena*/
+
+@media screen and (min-width: 606px) and (max-width: 700px) {
+    img {
+        max-width: 95px;
+        margin-left: 9px;
+    margin-top: 9px;
+    }
+}
