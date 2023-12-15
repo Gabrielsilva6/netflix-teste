@@ -100,7 +100,7 @@
 
 /*Imagem pequena*/
 
-@media screen and (min-width: 606px) and (max-width: 700px) {
+@media screen and (min-width: 300px) and (max-width: 700px) {
     img {
         max-width: 95px;
         margin-left: 9px;
