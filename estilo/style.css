@@ -63,7 +63,7 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    max-width: 300px;
+    max-width: 300px
 }
 
 #email{
@@ -126,7 +126,7 @@ p{
 
 #embaixo{
     color: #929292;
-    width: 100%;
+    width: 106.3%;
     margin-top: 15px;
 }
 
@@ -134,18 +134,19 @@ p{
     color: #929292;
     display: inline-block;
     font-size: 13px;
-    width: 47%;
+    width: 45%;
 }
 
 #helper {
     display: inline-block;
     width: 1px;
+    background-color: green;
 }
 
 #precisa{
     display: inline-block;
     font-size: 13px;
-    width: 50.7%;
+    width: 51.9%;
     text-align: right;
 }
 
@@ -185,29 +186,35 @@ hr {
     font-size: 13px;
     background-color: #000000ce;
     margin-top: 730px;
-    padding-top: 30px;
-    padding-right: 90px;
-    padding-bottom: 130px;
-    padding-left: 170px;
 
     
 }
 
 #duvidas{
+    margin: auto;
     font-size: 16px;
     font-weight: normal;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 990px;
+
 }
 
-#paragrafo{
-    margin-right: 140px;
-    margin-bottom: 300px;
+ul#pq {
+    display: none;
 }
 
-#continuacao{
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 127px;
+ul#gg {
+    margin: auto;
+    display: block;
+    list-style: none;
+    list-style-position: inside;
+    columns: 4;
+    max-width: 990px;
+}
+
+li {
+    margin-bottom: 17px;
 }
 
 #link{
@@ -217,4 +224,21 @@ hr {
 
 #link:hover{
     text-decoration: underline;
+}
+
+#ilang {
+    text-align: center;
+    width: 140px;
+    height: 47px;
+    background-color: black;
+    color: rgb(104, 104, 104);
+    border: 1px solid rgb(61, 61, 61);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 2px;
+}
+
+#pten {
+    margin: auto;
+    max-width: 990px;
 }
