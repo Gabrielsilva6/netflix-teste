@@ -2,7 +2,7 @@
 
 /*Tela de Celular*/
 
-@media screen and (min-width: 300px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
     * {
         margin: 0px;
         padding: 0px;
@@ -112,7 +112,17 @@
 /*Tela de Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
+    #duvidas {
+        margin-left: 30px;
+    }
+
+    ul#gg {
+        margin-left: 30px;
+    }
+
+    #ilang {
+        margin-left: 30px;
+    }
 }
 
 /*Imagem pequena*/
